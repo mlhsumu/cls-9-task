@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Main css-->
+<link rel="stylesheet" href="../css/style.css"/>    
+<title>Register page</title>
+</head>
+
+<body>
+    <div id="admin-box">
+        <!--page heading-->
+    <h1 style="margin-bottom: 10px;">Register Page</h1>
+    
+    <!--fromS-->
+    <form>
+        <input type="text" name="F-name" placeholder="username" /></div>
+        <input type="email" name="mail" placeholder="Email" /></br>
+
+
+
+        
+
+        
+        <!--Radio start-->
+        <label>What is your Gender?</label>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+        <!--radio end-->
+<!--select start-->
+<label for="occupation"> Are you a ?</label>
+<select id="occupation" name="occupation">
+
+    <option value="student"> student</option>
+  <option value="Teacher">Teacher</option> 
+  <option value="nothing">Nothing</option>
+</select><br>
+
+        
+        <!--select end-->
+
+        <input type="password" name="password" placeholder="password" /><br />
+        <input type="password" name="c-password" placeholder="confirm password" /><br>
+        <input type="submit" value="register" />
+    </form>
+    <p class="register">Already have an account please 
+        <a href="../index.html" target="_blank">Login here</a></p>
+
+   </div>
+</body>
+
+</html>
